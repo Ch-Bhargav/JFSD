@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+D:\JFSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1629803487.index
+\hibernateannotation\src\main\java
+D:\JFSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3809723670.index
+\hib-inherit-type1\src\main\java
+D:\JFSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\132319603.index
+\inherit-type2\src\main\java
+D:\JFSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3287983064.index
+\hidernatexml\src\main\java

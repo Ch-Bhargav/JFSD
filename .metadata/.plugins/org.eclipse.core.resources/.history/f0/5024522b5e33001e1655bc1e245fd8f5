@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hibernate Inheritence</title>
+</head>
+<body>
+
+<h2>Hibernate Inheritence Type - 1</h2>
+<form action="AddData" method = "post">
+
+<table>
+	<tr>
+		<td style="widht:180px">Emp Id:</td> 
+		<td><input type = "text" name = "id"/></td>
+		<td style="widht:180px">Emp Name:</td> 
+		<td><input type = "text" name = "name"/></td>
+	</tr>
+		<td style="widht:180px">Emp salary:</td> 
+		<td><input type = "text" name = "salary"/></td>
+		<td style="widht:180px">Emp bonus:</td> 
+		<td><input type = "text" name = "bonus"/></td>
+		<td style="widht:180px">Emp PPH:</td> 
+		<td><input type = "text" name = "pph"/></td>
+		<td style="widht:180px">Emp Duration:</td> 
+		<td><input type = "text" name = "duration"/></td>
+	</tr>
+</table>
+<td><input type="submit" value="SAVE" /></td>
+
+</form>
+
+</body>
+</html>

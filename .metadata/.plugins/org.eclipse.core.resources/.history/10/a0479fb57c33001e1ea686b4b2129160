@@ -1,0 +1,20 @@
+package com.model;
+
+public class ContractEmployee {
+	double payPerHour;
+	String duration;
+	public double getPayPerHour() {
+		return payPerHour;
+	}
+	public void setPayPerHour(double payPerHour) {
+		this.payPerHour = payPerHour;
+	}
+	public String getDuration() {
+		return duration;
+	}
+	public void setDuration(String duration) {
+		this.duration = duration;
+	}
+	
+
+}

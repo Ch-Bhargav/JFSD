@@ -1,0 +1,63 @@
+package com.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.model.Contract_employee;
+import com.model.Employee;
+import com.model.Regular_employee;
+
+@WebServlet("/AddData")
+public class AddData extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public AddData() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		PrintWriter pw = response.getWriter();
+		String ack = "";
+		
+		try {
+			
+			int id = Integer.parseInt(request.getParameter("id"));
+			String name = request.getParameter("name");
+			double salary = Double.parseDouble(request.getParameter("salary"));
+			int bonus = Integer.parseInt(request.getParameter("bonus"));
+			double pay_per_hour = Double.parseDouble(request.getParameter("pph"));
+			String duration = request.getParameter("duration");
+			
+			
+			Employee emp = new Employee();
+			emp.setId(id);
+			emp.setName(name);
+			Regular_employee remp = new Regular_employee();
+			remp.setBonus(bonus);
+			remp.setSalary(salary);
+			Contract_employee cemp = new Contract_employee();
+			cemp.setContract_period(duration);
+			cemp.setPay_per_hour(pay_per_hour);
+			
+			
+		}catch(Exception e) {
+			
+		}
+				
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.model;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class EmployeeManager {
+	
+	public String saveDate(Employee emp, Regular_employee remp, Contract_employee cemp) {
+		
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+	}
+
+}

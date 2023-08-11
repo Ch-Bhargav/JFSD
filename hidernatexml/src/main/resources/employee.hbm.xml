@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.model.Employee" table="emp">
+		<id name="id" column="eid"></id>
+		<property name="name" column="ename"></property>
+		<property name="dept" column="dept"></property>
+	</class>
+</hibernate-mapping>
