@@ -6,7 +6,12 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\chira\Desktop\registration-login-springboot-security-thymeleaf"/>
+			<item value="C:\Users\chira\Desktop\spring-boot-user-registration-and-Login-main"/>
+			<item value="C:\Users\chira\Desktop\ads_springboot-main"/>
 			<item value="C:\Users\chira\Desktop\Agriculture-E-Commerce-Spring-Boot-MVC-Security-JPA-Hibernate-Rest-AWS-Thyemeleaf\AgricultureECommerce"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

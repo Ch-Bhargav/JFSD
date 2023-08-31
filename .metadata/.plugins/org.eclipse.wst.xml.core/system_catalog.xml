@@ -235,5 +235,5 @@
   <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/Users/chira/eclipse/jee-2023-062/eclipse/../../../.p2/pool/plugins/org.eclipse.xsd_2.19.0.v20230315-1321.jar!/cache/www.w3.org/2001/xml.xsd"/>
   <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/Users/chira/eclipse/jee-2023-062/eclipse/../../../.p2/pool/plugins/org.eclipse.xsd_2.19.0.v20230315-1321.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/Users/chira/eclipse/jee-2023-062/eclipse/../../../.p2/pool/plugins/org.eclipse.wst.xsl.core_1.2.200.v202302070714.jar!/xslt-schemas/xinclude.xsd"/>
-  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Users/chira/.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_4.19.1.202308011907.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
+  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Users/chira/eclipse/jee-2023-062/eclipse/../../../.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_4.19.1.202308011907.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
 </catalog>
