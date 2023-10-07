@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\chira\Desktop\E-commerce-project-springBoot-main"/>
 			<item value="C:\Users\chira\Desktop\registration-login-springboot-security-thymeleaf"/>
 			<item value="C:\Users\chira\Desktop\spring-boot-user-registration-and-Login-main"/>
 			<item value="C:\Users\chira\Desktop\ads_springboot-main"/>
